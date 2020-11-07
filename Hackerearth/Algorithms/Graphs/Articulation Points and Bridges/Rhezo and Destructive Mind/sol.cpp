@@ -28,7 +28,7 @@ void dfs(vector<vector<int>>& adj, vector<int>& in, vector<int>& lo, vector<bool
 	}
 }
 
-int main(void) {
+int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(nullptr);
   int n, m;
