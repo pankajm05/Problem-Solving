@@ -19,7 +19,7 @@ void dfs(vector<vector<int>>& adj, vector<int>& in, vector<int>& lo, vector<bool
 				if (lo[v] >= in[s] && p != -1) {
 					cut[s] = 1;
 				}
-				++d;
+			  ++d;
 			}
 		}
 	}
