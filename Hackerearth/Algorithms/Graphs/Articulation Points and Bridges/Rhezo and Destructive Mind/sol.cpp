@@ -30,7 +30,7 @@ void dfs(vector<vector<int>>& adj, vector<int>& in, vector<int>& lo, vector<bool
 
 int main() {
   ios_base::sync_with_stdio(false);
-  cin.tie(nullptr);
+  cin.tie(0);
   int n, m;
 	cin >> n >> m;
 	vector<vector<int>> adj(n);
