@@ -7,7 +7,7 @@
 using namespace std;
 
 void dfs(vector<vector<int>>& adj, vector<int>& in, vector<int>& lo, vector<bool>& cut, int s, int p = -1, int timer = 0) {
-	in[s] = lo[s] = timer;
+  in[s] = lo[s] = timer;
 	int d = 0;
 	for (int& v : adj[s]) {
 		if (v != p) {
